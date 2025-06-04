@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Healthy Habits Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Healthy Habits Tracker</h1>
+        <p>Build better habits every day!</p>
+        <button id="themeToggleBtn" onclick="toggleTheme()">🌓 Toggle Theme</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Today's Habits</h2>
+            <form id="habitForm">
+                <label><input type="checkbox" class="habit" value="water" /> Drink 8 glasses of water</label><br />
+                <label><input type="checkbox" class="habit" value="exercise" /> 30 minutes of exercise</label><br />
+                <label><input type="checkbox" class="habit" value="read" /> Read for 15 minutes</label><br />
+            </form>
+
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+            <p id="progressMsg"></p>
+            <div class="image-container">
+            <img src="c:\Users\mythri\OneDrive\Desktop\healthy.jpg" alt="Healthy Lifestyle" width="300" height="200">
+            <p class="caption">Healthy Lifestyle</p>
+            
+
+            <p>Tip: Stay consistent and celebrate small wins!</p>
+            <a href="https://www.healthline.com/nutrition/how-to-start-exercising" target="_blank" rel="noopener noreferrer">Learn more about healthy habits</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Need Motivation?</h2>
+            <button id="motivationBtn" onclick="showMotivation()">Click for a Motivation Boost</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Healthy Habits Tracker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

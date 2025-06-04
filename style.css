@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fdf4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+ul, form {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #81c784;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #66bb6a;
+}
+
+footer {
+    text-align: center;
+    background-color: #c8e6c9;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 20px;
+    width: 100%;
+}
+
+#progressFill {
+    background-color: #4caf50;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark header {
+    background-color: #1b5e20;
+}
+
+body.dark a {
+    color: #80cbc4;
+}
+
+/* Image container and caption */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.center-img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.caption {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
